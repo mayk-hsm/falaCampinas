@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <script type="text/javascript" src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script type="text/javascript" src="../resources/js/myScript.js"></script>
+    <script type="text/javascript" src="../resources/js/env.js"></script>
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+
+<body background="../resources/images/fotocps2.jpg" style="background-repeat: no-repeat; background-size: cover;">
+
+    <section id="recuperaSenha" class="container card float-center wrapper form-slean">
+        <section class="header center-h">
+            <h1>Recuperação de senha</h1>
+        </section>
+
+        <label>E-mail:</label>
+        <input class="form-control" type="email" id="email_reset" name="email">
+
+        <section class="footer">
+
+            <div class="row">
+
+
+                &nbsp;&nbsp;<button class="btn btn-danger col-md-3 offset-md-5" onclick="voltarLogin();">Voltar ao login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <button class="btn btn-info col-md-3" onclick="resetaSenha();">Enviar e-mail</button>
+
+
+            </div>
+
+        </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/rosto.css">
+    <script type="text/javascript" src="../public/resources/js/jquery-3.3.1.min.js"></script>
+
+    <!--        Firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+
+    <script type="text/javascript" src="../public/resources/js/env.js"></script>
+    <script type="text/javascript" src="../public//resources/js/myScript.js"></script>
+    <script type="text/javascript" src="../public//resources/js/rosto.js"></script>
+
+</head>
+
+<body>
+    <header class=" align-items-center header">
+        <nav class="navbar navbar-expand-md fixed-top header">
+            <a class="navbar-brand" href="#">Fala Campinas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+
+                </ul>
+                <a href="pages/login.html" class="login btn orange" id="login">Realizar Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="content text-center container" style="width: 60%;">
+        <div class="resumo">
+           <br><br>
+        </div>
+
+        <section class="inside-header">
+            <h2>Prolemas Cadastrados</h2>
+        </section>
+
+        <section class="inside-body container">
+            <table class="table" style="text-align: center;">
+                <thead>
+                    <tr>
+                        <th scope="col">Problema</th>
+                        <th scope="col">Local</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody id="todosProblemas">
+
+                </tbody>
+            </table>
+        </section>
+
+
+        <h3 class="text-center">Participantes</h3>
+        <div class="participantes row d-inline-flex" style="text-align: center">
+            <div class="col-md-6">
+                <img class="participante" src="resources/images/programmer.png"><br><label for="">Mayk</label>
+            </div>
+            <div class="col-md-6">
+                <img class="participante" src="resources/images/programmer.png"><br><label for="">Giovanni</label>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="text-center py-3">Desenvolvido por Giovanni Fonseca e Mayk Henrique
+        </div>
+
+    </footer>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#minhaCampinas").carousel();
+
+
+            $(".carousel-control-prev").click(function() {
+                $("#minhaCampinas").carousel("prev");
+            });
+            $(".carousel-control-next").click(function() {
+                $("#minhaCampinas").carousel("next");
+            });
+        });
+
+    </script>
+</body>
+
+
+</html>

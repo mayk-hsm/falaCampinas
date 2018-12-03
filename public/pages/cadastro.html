@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+
+   <link rel="stylesheet" type="text/css" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <script type="text/javascript" src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script type="text/javascript" src="../resources/js/myScript.js"></script>
+    <script type="text/javascript" src="../resources/js/env.js"></script>
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+</head>
+
+<body background="../resources/images/fotocps1.jpg">
+    <section id="createUser" class="container card float-center wrapper form-slean">
+        <section class="header center-h">
+            <h1>Cadastro de usuário</h1>
+        </section>
+
+        <label>Nome:</label>
+        <input class="form-control" type="text" id="nome" name="nome">
+
+        <label>Sobrenome:</label>
+        <input class="form-control" type="text" id="sobrenome" name="sobrenome">
+
+        <label>E-mail:</label>
+        <input class="form-control" type="email" id="email" name="email">
+
+        <label>Senha:</label>
+        <input class="form-control" type="password" id="senha" name="senha">
+
+        <label>Confirmação de senha:</label>
+        <input class="form-control" type="password" id="confirmaSenha" name="confirmaSenha">
+        <section class="footer">
+            <div class="row">
+                &nbsp;&nbsp;<button class="btn btn-danger col-md-3 offset-md-5" onclick="voltarLogin();">Voltar ao login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <button class="btn btn-info col-md-3" onclick="validaInfo();">Cadastrar</button>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

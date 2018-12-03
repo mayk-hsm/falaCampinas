@@ -1,0 +1,34 @@
+
+
+.header {
+    background-color: #0096FA;
+    height: 50px;
+
+}
+
+.login-area {
+    display: flex;
+    float: right!important;
+}
+
+.participante{
+    background-color: #0044cc;
+    border-radius: 50%;
+    height: 160px;
+}
+
+.orange{
+    background-color: #e6c300;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.page-footer{
+  bottom: 0;
+  width: 100%;
+    height: 60px;
+   
+    background-color: #0096FA;
+}

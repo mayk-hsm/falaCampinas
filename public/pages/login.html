@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/login.css">
+    <script type="text/javascript" src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+    <script type="text/javascript" src="../resources/js/env.js"></script>
+
+    <script type="text/javascript" src="../resources/js/myScript.js"></script>
+    <script type="text/javascript" src="../resources/js/cadastroProblema.js"></script>
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="align-self-center" id="body">
+
+    <section class="container container-login">
+        <div class="card login ">
+            <div class="card-header text-center header-login">
+
+                <h1>Fala <img class="logo-image" src="../resources/images/VLC.png" alt="Paris">Campinas</h1>
+            </div>
+            <label>E-mail</label>
+            <input type="text" id="email_autenticacao" placeholder="falacampinas@exemplo.com">
+            <br>
+            <label>Senha</label>
+            <input type="password" id="senha_autenticacao" placeholder="Senha">
+
+            <div class="text-center">
+                <a href="recuperarSenha.html">Esqueci minha senha</a><br>
+                <a href="cadastro.html">Cadastre-se</a>
+            </div>
+            <div class="card-footer text-center footer-login row">
+                <div class="col-6">
+                    <a href="../../public/index.html" class="btn btn-danger text-center">Cancelar</a>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-success text-center" onclick="autenticarUsuario();">Entrar</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+
+
+</html>

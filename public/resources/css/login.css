@@ -1,0 +1,52 @@
+.login {
+    padding: 20px;
+   
+}
+
+.logo-image{
+    height: 100px;
+}
+
+.card-header,.card-footer{
+    background-color: #fff;
+    border: 0;
+}
+
+
+
+.container-login{
+     margin-top: 100px;
+    width: 450px;
+}
+
+.footer-login{
+    margin-top: 40px
+}
+.header-login{
+    padding: 0;
+    margin-bottom:40px; 
+}
+
+body {
+    background-image: url("../images/background-campinas.jpg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-login{
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+    background-color: cadetblue
+}
+
+.btn-login:hover{
+    font-size: 55%;
+    color: #fff;
+    font-size: 20px;
+    background-color: cadetblue
+}

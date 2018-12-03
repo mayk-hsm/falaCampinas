@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+
+   <link rel="stylesheet" type="text/css" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    <script type="text/javascript" src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script type="text/javascript" src="../resources/js/myScript.js"></script>
+    <script type="text/javascript" src="../resources/js/env.js"></script>
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+    <div style="position: fixed;">
+        <div class="row">
+            <div class="" style="padding-left: 15px;">
+
+                <!-- Sidebar -->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Fala Campinas</h3>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="cadastroProblema.html">Cadastrar Novo Problema</a>
+                        </li>
+
+                        <li>
+                            <a href="listarProblemas.html">Listar Meus Problemas</a>
+                        </li>
+                        <li>
+                            <a href="trocarSenha.html">Trocar Minha Senha</a>
+                        </li>
+
+                        <li>
+                            <a href="#" onclick="logoff();">Sair</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-content">
+        <section class="inside-header">
+            <h2>Trocar Minha Senha</h2>
+        </section>
+        <section class="container float-center wrapper form-slean">
+            <label>E-mail:</label>
+            <input class="form-control" type="text" id="email_troca" name="email">
+
+            <section class="footer">
+
+                <div style="float: right">
+                    <button class="btn btn-info" onclick="trocaSenha();">Enviar e-mail</button>
+                </div>
+
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>
